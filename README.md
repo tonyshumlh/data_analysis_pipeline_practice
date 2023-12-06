@@ -11,7 +11,11 @@ novels. It reports the top 10 most occurring words in each book in a [report](do
 2. Run the following commands:
 
 ```
-bash runall.sh
+# reset the analysis to the starting point
+make clean
+
+# generate intermediate and final results
+make all
 ```
 
 ### Exercise:
